@@ -1,108 +1,74 @@
-CRYPTO EXECUTION SIMULATOR
--------------------------------------------------------------
+# 🚀 Crypto Execution Simulator
 
-Author: Gaurvi Dohare
-Project Type: Real-time trading simulation tool
-Language: Python
+**Author:** Gaurvi Dohare  
+**Project Type:** Real-time Trading Simulation Tool  
+**Language:** Python  
 
-1. PROJECT OVERVIEW
--------------------------------------------------------------
+---
 
-The Crypto Execution Simulator is a Python-based application that
-simulates cryptocurrency trade execution using real-time Level-2
-order book data from cryptocurrency exchanges.
+## 📌 Project Overview
 
-The goal of this project is to analyze the cost of executing trades
-in a live market environment by estimating important metrics such as:
+The Crypto Execution Simulator is a Python-based application that simulates cryptocurrency trade execution using real-time Level-2 order book data.
 
-• Slippage
-• Market Impact
-• Transaction Fees
-• Net Execution Cost
-• Maker/Taker Probability
-• Internal Processing Latency
+It helps analyze the cost of executing trades in a live market environment by estimating key metrics such as:
 
-This project is intended for learning concepts related to:
+- Slippage  
+- Market Impact  
+- Transaction Fees  
+- Net Execution Cost  
+- Maker/Taker Probability  
+- Internal Processing Latency  
 
-• Market microstructure
-• Order book dynamics
-• Trade execution modeling
-• Real-time financial data processing
+---
 
+## 🧠 Concepts Covered
 
-2. FEATURES
--------------------------------------------------------------
+- Market Microstructure  
+- Order Book Dynamics  
+- Trade Execution Modeling  
+- Real-Time Financial Data Processing  
 
-• Real-time order book data streaming using WebSockets
-• Simulation of trade execution using live market data
-• Estimation of trading metrics such as slippage and market impact
-• Graphical User Interface (GUI) built using PyQt5
-• Numerical computation using NumPy
-• Machine learning models using scikit-learn
+---
 
+## ⚙️ Features
 
-3. TECHNOLOGY STACK
--------------------------------------------------------------
+- Real-time order book streaming using WebSockets  
+- Trade execution simulation using live market data  
+- Slippage and market impact estimation  
+- GUI built using PyQt5  
+- Numerical computation using NumPy  
+- Machine learning using scikit-learn  
 
-Programming Language
-• Python 3.8+
+---
 
-Libraries
-• PyQt5
-• websockets
-• NumPy
-• scikit-learn
+## 🛠️ Tech Stack
 
+**Language**
+- Python 3.8+
 
-4. PROJECT STRUCTURE
--------------------------------------------------------------
+**Libraries**
+- PyQt5  
+- websockets  
+- NumPy  
+- scikit-learn  
 
-crypto-execution-simulator/
+---
 
+## 📁 Project Structure
+
+```
+Crypto-Execution-Simulator/
 │
-├── trade_simulator.py      # Main application
-├── requirements.txt        # Python dependencies
-├── README.txt              # Project documentation
-└── demo.mp4                # Demonstration video
+├── Trade_Simulator.py
+├── requirements.txt
+├── README.md
+```
 
+---
 
-5. INSTALLATION
--------------------------------------------------------------
+## 🚀 Installation
 
-1. Clone or download the repository.
+```bash
+git clone https://github.com/Gaurvi-D/Crypto-Execution-Simulator.git
+cd Crypto-Execution-Simulator
 
-2. Create a virtual environment (recommended):
-
-python -m venv venv
-
-Activate it:
-
-Windows:
-venv\Scripts\activate
-
-Mac/Linux:
-source venv/bin/activate
-
-
-3. Install dependencies
-
-pip install -r requirements.txt
-
-
-6. RUNNING THE APPLICATION
--------------------------------------------------------------
-
-Run the simulator using:
-
-python trade_simulator.py
-
-The GUI will open where you can input trade parameters and run
-the simulation.
-
-
-7. DISCLAIMER
--------------------------------------------------------------
-
-This project is for educational and research purposes only.
-It does not execute real trades and should not be used for
-actual financial decision-making.
